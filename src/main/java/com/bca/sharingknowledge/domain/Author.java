@@ -8,8 +8,8 @@ import java.util.Set;
 public class Author {
     private String firstName;
     private String lastName;
-    @ManyToMany(mappedBy = "author")
-    private Set<Book> book = new HashSet<>();
+    @ManyToMany(mappedBy = "authors")
+    private Set<Book> books = new HashSet<>();
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -19,7 +19,7 @@ public class Author {
         return "Author{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", book=" + book +
+                ", book=" + books +
                 ", id=" + id +
                 '}';
     }
@@ -72,11 +72,11 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public Set<Book> getBook() {
-        return book;
+    public Set<Book> getBooks() {
+        return books;
     }
 
-    public void setBook(Set<Book> book) {
-        this.book = book;
+    public void setBooks(Set<Book> books) {
+        this.books = books;
     }
 }
