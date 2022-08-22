@@ -2,9 +2,24 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="bca-repo.jenkins-ci.org-public" />
+      <option name="name" value="bca-repo.jenkins-ci.org-public Maven Repository" />
+      <option name="url" value="http://bcaartifactory.intra.bca.co.id:8080/artifactory/repo.jenkins-ci.org-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bcaartifactory" />
+      <option name="name" value="BCA Maven Repository" />
+      <option name="url" value="http://bcaartifactory.intra.bca.co.id:8080/artifactory/RepositoryDevOps/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://bcaartifactory.intra.bca.co.id:8080/artifactory/central.maven.org" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -15,6 +30,16 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bca-repo.spring.io" />
+      <option name="name" value="bca-repo.spring.io Maven Repository" />
+      <option name="url" value="http://bcaartifactory.intra.bca.co.id:8080/artifactory/repo.spring.io/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="BCAREPOSITORY" />
+      <option name="name" value="BCAREPOSITORY" />
+      <option name="url" value="http://bcaartifactory.intra.bca.co.id:8080/artifactory/list/libs-release-local/" />
     </remote-repository>
   </component>
 </project>
