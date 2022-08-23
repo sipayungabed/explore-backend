@@ -1,7 +1,5 @@
 package com.bca.sharingknowledge.domain;
 
-import lombok.Generated;
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
